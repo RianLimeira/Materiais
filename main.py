@@ -47,6 +47,6 @@ botao_exibir = Button(janela, text='exibir', command=exibir)
 botao_exibir.grid(column=2, row=4, pady=10, padx=20, sticky='nswe', columnspan=2)
 
 texto = Label(janela, text="")
-texto.grid(column=0, row=5, pady=10, padx=20, sticky='nswe')
+texto.grid(column=0, row=5, pady=10, padx=20, sticky='nswe', columnspan=4)
 
 janela.mainloop()
